@@ -1,0 +1,50 @@
+=====================================
+EXPERIENCE
+=====================================
+
+--- Entry 1 ---
+
+Title:        Software Engineering Intern
+Dates:        May 2025 -- Dec. 2025
+Company:      Alchemy Software LLC
+Location:     
+
+Bullet Points:
+  - Developed system to introduce time attribute to existing task objects enabling users to precisely add time to tasks, achieving the final product 7 days ahead of schedule
+  - Wrote over 20 test cases, including creation of testing library to reduce new test cases by 90%
+  - Actively managed code conflicts and design integration within a 6+ member team, collaborating in weekly meetings to combine new features and streamline development workflows
+  - Debugged and resolved critical issues within new features, ensuring stability for monthly version launches
+  - *Met with a team of 4 developers to discuss and implement new features for the product
+
+--- Entry 2 ---
+
+Title:        Proving in AI: Independent Research
+Dates:        Jan. 2025 -- May 2025
+Company:      Michigan State University
+Location:     
+
+Bullet Points:
+  - Explored 6 sources using google scholar to learn about the foundations of computer science and development in AI
+  - Presented synthesized information other students in the course through a 13+ minute virtual presentation to deliver up to date research results and original conclusions from the project
+  - Wrote a 6-page paper with modern formatting and referencing practices to condense recent findings in research
+
+--- Entry 3 ---
+
+Title:        Software Engineering Intern
+Dates:        Dec. 2025 -- Present
+Company:      APS Data Technologies
+Location:     Remote
+
+Bullet Points:
+  - *Developed several new features (gcp), Integrated new features into existing codebase to improve user experience and functionality 
+  - *Bebugged through ai generated code to ensure security and stability through multiple test cases and user testing
+
+-- Entry 4 --
+
+Title:        Data Science Platform Engineering Intern
+Dates:        May 2026 -- Aug. 2026
+Company:      Auto-Owners Insurance
+Location:     Lansing, MI
+
+Bullet Points:
+  - ***DO NOT USE THIS ENTRY***

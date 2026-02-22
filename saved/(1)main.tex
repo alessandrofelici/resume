@@ -1,0 +1,221 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Alessandro Felici} \\ \vspace{1pt}
+    \small (734)-787-3873 $|$ \href{felicial@msu.edu}{\underline{felicial@msu.edu}} $|$ 
+    \href{https://www.linkedin.com/in/alessandro-felici-263895325/}{\underline{linkedin.com/in/alessandro-felici}} $|$
+    \href{https://github.com/alessandrofelici}{\underline{github.com/alessandrofelici}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Michigan State University Honors College -- GPA: 3.96}{Aug. 2024 -- Dec. 2027}
+      {Bachelor of Science in Computer Science, Minors in Data Science and Computational Math}{East Lansing, MI}
+      \resumeItem{Coursework: Data Structures \& Algorithms, Object Oriented Programming, Quantum Computing, Computer Systems}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Full Stack Software Engineering Intern}{May 2025 -- Present}
+      {Alchemy Software LLC}{}
+      \resumeItemListStart
+        \resumeItem{Developed system to introduce time attribute to existing task objects enabling users to precisely add time to tasks, achieving the final product \textbf{7} days ahead of schedule}
+        \resumeItem{Wrote over \textbf{20} test cases, including creation of testing library to reduce new test cases by \textbf{90\%}}
+        \resumeItem{Actively managed code conflicts and design integration within a \textbf{6+} member team, collaborating in weekly meetings to combine new features and streamline development workflows}
+        \resumeItem{Debugged and resolved critical issues within new features, ensuring stability for monthly version launches}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Proving in AI: Independent Research}{Jan. 2025 -- May 2025}
+      {Michigan State University}{}
+      \resumeItemListStart
+        \resumeItem{Explored \textbf{6} sources using google scholar to learn about the foundations of computer science and development in AI}
+        \resumeItem{Presented synthesized information other students in the course through a \textbf{13+} minute virtual presentation to deliver up to date research results and original conclusions from the project}
+        \resumeItem{Wrote a \textbf{6}-page paper with modern formatting and referencing practices to condense recent findings in research}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------CLUBS-----------
+\section{Organizations}
+  \resumeSubHeadingListStart
+  
+    \resumeProjectHeading
+      {\textbf{Imagine Software Club} $|$ \emph{Project Director}}{Aug. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Developed a website with a React frontend for Ollama interaction, and a Google Chrome extension for RESTful API communication with Gemini and Mistral, cultivating skills in modern web development and AI integration}
+        \resumeItem{Acquired proficiency in \textbf{3} new programming languages by developing personal projects, leading to rapid progression in my learning and the effective application of creative problem-solving to technical challenges}
+        \resumeItem{Helped manage educational platform, instructing new club members in programming languages and frameworks to foster their skill development and prepare them for advanced projects}
+        \resumeItem{Managed club projects and events alongside personal development and academic responsibilities to teach others while effectively balancing my own schedule}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{FRC Team 3604 Goon Squad} $|$ \emph{Mechanical Lead}}{Sep. 2021 -- May 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and manufactured a game piece launch system with best engineering practices, iterating on the subsystem to increase scoring accuracy by \textbf{20\%} due to increased control over the piece}
+        \resumeItem{Managed \textbf{5} groups of \textbf{15+} mechanical team members by communicating design decisions and priorities to accelerate development cycles, allowing team members to fail quick and respond with innovative solutions}
+        \resumeItem{Coordinated with software team by presenting functional prototype models and meeting regularly, maximizing robot efficiency due to greater communication}
+        \resumeItem{Optimized solutions to overcome design constraints by prioritizing efficiency and speed, which led to a ranking of \textbf{141} out of \textbf{3472} teams at the world championship}
+      \resumeItemListEnd
+
+ \resumeSubHeadingListEnd
+
+
+\section{Volunteering}
+ \resumeSubHeadingListStart
+    \resumeProjectHeading {\textbf{MSU Science Festival} $|$ \emph{Quantum Computing in The Quantum Zone}}{Apr. 2025}
+     \resumeItemListStart
+        \resumeItem{Taught nearly \textbf{250} visitors quantum algorithms using IBM quantum composer}
+      \resumeItemListEnd
+
+    \resumeProjectHeading {\textbf{FIRST Robotics Competition} $|$ \emph{Referee, Official Scorer, Crowd Control}}{June 2024 -- Present}
+     \resumeItemListStart
+        \resumeItem{Assisted in running high school competitions over weekends, consisting of \textbf{100+} matches}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ 
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: Java, C, C++, Typescript, JavaScript, HTML, CSS, Python, React, React Native, Next.js, Numpy, Sympy, MatPlotLib, Pandas, MongoDB, Firebase, Bash, R, RStudio} \\
+     \textbf{Developer Tools}{: Github, Git, Github Desktop, Docker Desktop, VScode, Antigravity, Fusion 360, Ollama, Gemini, Claude, Ubuntu} \\
+     \textbf{Soft Skills}{: Critical thinking, communication, time management, problem solving, troubleshooting, proactive learning} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
