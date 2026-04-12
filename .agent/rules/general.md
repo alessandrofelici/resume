@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 Do not edit the files under ./saved or ./sections. Only edit draft.tex.
 
 Significant numbers should be bolded when drafting a sample .tex file for a resume.

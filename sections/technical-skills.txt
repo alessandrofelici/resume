@@ -29,11 +29,13 @@ Developer Tools:
   - Git
   - VScode
   - Antigravity
+  - Arduino IDE
   - Fusion 360
   - Ollama
   - Gemini
   - Claude
   - Ubuntu
+  - RStudio
 
 Soft Skills:
   - Critical thinking
