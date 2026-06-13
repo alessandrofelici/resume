@@ -12,6 +12,13 @@ Generate a tailored resume `.tex` file (`draft.tex`) for a given computer scienc
 - Use standard text characters only — no emojis or special characters.
 - Do not use LaTeX packages not already installed. Check with `pdflatex --version`.
 
+## Bold Formatting Convention
+Bold markers must be preserved when moving bullets between `sections/` files and `draft.tex`:
+- In `.txt` section files: mark bold text with `**text**`
+- In `draft.tex`: render as `\textbf{text}`
+- When pulling a bullet from sections into the draft, convert `**text**` → `\textbf{text}`
+- When writing a bullet back to a sections file, convert `\textbf{text}` → `**text**`
+
 ## Writing Style
 - Use strong action verbs and quantify achievements whenever possible.
 - Make sentences concise and impactful.

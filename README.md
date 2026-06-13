@@ -14,7 +14,8 @@ resume/
 │   ├── experiences.txt     # Work history and internships
 │   ├── organizations.txt   # Clubs, teams, leadership roles
 │   ├── education.txt       # Degree, coursework
-│   ├── technical-skills.txt
+│   ├── projects.txt 
+|   ├── technical-skills.txt
 │   └── volunteering.txt         
 ├── saved/                  # Finalized resume versions
 │   ├── (1)main.tex         # General-purpose resume
