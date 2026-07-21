@@ -23,6 +23,9 @@ Languages & Tools:
   - Bash
   - R
   - RStudio
+  - Kubernetes
+  - AWS SageMaker
+  - Terraform
 
 Developer Tools:
   - Github
@@ -36,6 +39,10 @@ Developer Tools:
   - Claude
   - Ubuntu
   - RStudio
+  - Atlassian Suite
+  - PyTorch
+  - MLFlow
+  - AWS Console
 
 Soft Skills:
   - Critical thinking

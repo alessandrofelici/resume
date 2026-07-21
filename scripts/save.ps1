@@ -6,7 +6,7 @@ if (-not $Name) {
 }
 
 $root = Split-Path $PSScriptRoot -Parent
-$savedDir = Join-Path $root "saved"
+$savedDir = Join-Path $root "saved resumes"
 $buildDir = Join-Path $savedDir "build"
 $draftPath = Join-Path $root "draft.tex"
 

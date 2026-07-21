@@ -48,4 +48,19 @@ Easy Text Transfer — Electron, TS, React Native, Firebase (Oct–Dec 2025)
   - Built cross-platform text/note sync app using polling with last-write-wins conflict resolution
   - Implemented shared state sync where the latest timestamped write takes precedence
 
+Auto-Owners Insurance — Data Science Platform Engineering Intern (May–Aug 2026, upcoming)
+  - Will tune CNN hyperparameters and develop a Terraform deployment proof of concept
+
+MSU ICER — LLM Research and Development Technician (May–Aug 2026, upcoming)
+  - Will build an AI agent helping users submit code to the HPCC
+
+GapWrap — SpartaHack 11 (Feb 2026)
+  - Crypto sandwich attack detector; Python slippage engine + React/Vite/TS frontend wrapping trades in slippage protection
+
+Fluent — SpartaHack X (Feb 2025)
+  - Interactive language learning chatbot using Flask, LangChain, and Groq's Llama 3.3 with conversational memory
+
+Various Programming Projects (Jan–Sep 2025)
+  - React frontend for Ollama interaction + Chrome extension calling Gemini/Mistral REST APIs
+
 

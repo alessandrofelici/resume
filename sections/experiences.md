@@ -50,9 +50,9 @@ Company:      Auto-Owners Insurance
 Location:     Lansing, MI
 
 Bullet Points:
-  - ***DO NOT USE THIS ENTRY FOR RESUME***
-  - Tune hyperparameters and modify architecture of a CNN model to improve test accuracy
-  - Develop a terraform proof of concept to speed up deployment between different services
+  - Prototyped a Terraform IaC stack for ML batch inference, provisioning **7** AWS resources (SageMaker, ECR, S3, IAM) alongside OpenShift via the Kubernetes provider to enable portability between platforms.
+  - Evaluated Terraform against the team's existing AWS CDK setup, comparing provisioning speed and configuration complexity, and delivered a migration recommendation the team plans to adopt.
+  - Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size via a parameterized argparse workflow, and logged runs to MLflow. The model served as the test artifact for the Terraform POC.
 
 -- Entry 5 -
 

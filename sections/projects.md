@@ -29,14 +29,27 @@ Bullet Points:
 
 --- Entry 3 ---
 
-Project:
+Project:      Fluent
 Stack:
-  -
-  -
-  -
-Dates:
+  - React
+  - TypeScript
+Dates:        Jan. 2025 -- Feb. 2025
 
 Bullet Points:
-  -
-  -
-  -
+  - Built an interactive language learning chatbot at SpartaHack X using Flask, LangChain, and Groq's Llama 3.3 70B with a 5-interaction conversational memory buffer to power context-aware tutoring
+  - Developed a React frontend with quiz state, user scoring, and dynamic language selection to deliver a personalized learning loop driven by LLM-generated questions
+
+--- Entry 4 ---
+
+Project:      GapWrap
+Stack:
+  - Python
+  - Flask
+  - TypeScript
+  - React
+  - Vite
+Dates:        Jan. 2026 -- Feb. 2026
+
+Bullet Points:
+  - Built a crypto sandwich attack detector at SpartaHack 11 with a Python listener and slippage engine backend that flags bot-driven price manipulation on incoming transactions
+  - Developed a React + Vite + TypeScript frontend that visualizes transaction risk and wraps trades in slippage protection, closing the price gap exploited by sandwich bots

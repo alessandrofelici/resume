@@ -1,0 +1,108 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(draft.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\marvosym.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty)))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df)) (D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty))
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode
+.tex)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def) (draft.aux)
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (draft.out) (draft.out)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 115.
+
+(D:\Users\skybo\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd)
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[1{C:/Users/skybo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (draft.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )<D:/Users/skybo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><D:/Users/skybo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><D:/Users/skybo/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><D:/Users/skybo/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/skybo/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/skybo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Users/skybo/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on draft.pdf (2 pages, 114422 bytes).
+Transcript written on draft.log.
+pdflatex: major issue: So far, you have not checked for MiKTeX updates.
