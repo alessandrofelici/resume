@@ -53,6 +53,9 @@ Bullet Points:
   - Prototyped a Terraform IaC stack for ML batch inference, provisioning **7** AWS resources (SageMaker, ECR, S3, IAM) alongside OpenShift via the Kubernetes provider to enable portability between platforms.
   - Evaluated Terraform against the team's existing AWS CDK setup, comparing provisioning speed and configuration complexity, and delivered a migration recommendation the team plans to adopt.
   - Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size via a parameterized argparse workflow, and logged runs to MLflow. The model served as the test artifact for the Terraform POC.
+  - Prototyped a Terraform IaC stack for ML batch inference, provisioning **7** AWS resources (SageMaker, ECR, S3, IAM) alongside OpenShift via the Kubernetes provider to enable portability between platforms
+  - Evaluated Terraform against the team's existing AWS CDK setup and delivered a migration recommendation which helped the team adopt Terraform for future ML batch inference deployments
+  - Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size via a parameterized argparse workflow, and logged runs to MLflow to provide a baseline for integrating the model into AWS batch transform jobs in the SageMaker POC.
 
 -- Entry 5 -
 

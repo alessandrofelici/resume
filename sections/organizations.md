@@ -4,7 +4,7 @@ ORGANIZATIONS
 
 --- Entry 1 ---
 
-Organization: Imagine Software Club
+Organization: Imagine Software Consultancy
 Role:         Project Director
 Dates:        Aug. 2024 -- Present
 
@@ -15,6 +15,8 @@ Bullet Points:
   - Defined project specifications and requirements with clients each semester, producing reference documentation that enabled development teams to begin work immediately and stay aligned throughout delivery
   - Maintained ongoing client communication covering deadlines, payments, and project expectations across **7** active engagements, retaining all clients through semester delivery
   - Developed and delivered educational workshops on developer tools and Git for **10+** members, including slides, reference documents, and live demos
+  - Built several applications, including a React frontend for Ollama LLM interaction and a Chrome extension for RESTful API communication with Gemini, cultivating skills in modern web development and AI integration
+  - Led weekly check-ins with project leads across **7** concurrent client projects, identifying blockers early to maintain progress, resulting in all **7** projects meeting MVP requirements and reaching deployment
 
 --- Entry 2 ---
 

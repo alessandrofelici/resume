@@ -87,7 +87,7 @@
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-10pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -139,7 +139,7 @@
       \resumeItemListStart
         \resumeItem{Prototyped a Terraform IaC stack for ML batch inference, provisioning \textbf{7} AWS resources (SageMaker, ECR, S3, IAM) alongside OpenShift via the Kubernetes provider to enable portability between platforms}
         \resumeItem{Evaluated Terraform against the team's existing AWS CDK setup and delivered a migration recommendation which helped the team adopt Terraform for future ML batch inference deployments}
-        \resumeItem{Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size to provide a baseline for integrating the model into AWS batch transform jobs.}
+        \resumeItem{Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size via a parameterized argparse workflow, and logged runs to MLflow to provide a baseline for integrating the model into AWS batch transform jobs in the SageMaker POC.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -161,20 +161,24 @@
 
 
 \section{Projects}
-  \resumeSubHeadingListStart
-    \resumeProjectHeading
-      {\textbf{Proving in AI: Independent Research} $|$ \emph{Michigan State University}}{Jan. 2025 -- May 2025}
+    \resumeSubheading
+      {Proving in AI: Independent Research}{Jan. 2025 -- May 2025}
+      {Michigan State University}{}
       \resumeItemListStart
         \resumeItem{Investigated AI development foundations across \textbf{6} sources and presented original conclusions through a \textbf{13+} minute virtual presentation, communicating technical research results to a peer audience}
       \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
+  \resumeSubHeadingListStart
     \resumeProjectHeading
       {\textbf{Easy Text Transfer} $|$ \emph{Electron, TypeScript, JavaScript, React Native, Expo, Firebase}}{Oct. 2025 -- Dec. 2025}
       \resumeItemListStart
         \resumeItem{Built a cross-platform text and note sync application across desktop and mobile clients using a polling-based architecture with last-write-wins conflict resolution to handle concurrent edits}
         \resumeItem{Implemented a shared state sync model where the most recently timestamped write takes precedence, eliminating conflict ambiguity without requiring a distributed consensus protocol}
       \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
+  \resumeSubHeadingListStart
     \resumeProjectHeading
       {\textbf{GapWrap} $|$ \emph{React, Vite, TypeScript, Python, Flask}}{Jan. 2026 -- Feb. 2026}
       \resumeItemListStart
