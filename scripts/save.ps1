@@ -1,8 +1,7 @@
 param([string]$Name)
 
 if (-not $Name) {
-    Write-Host "Usage: ./scripts/save.ps1 <name>  (e.g. swe, ds, google-intern)"
-    exit 1
+    $Name = "main"
 }
 
 $root = Split-Path $PSScriptRoot -Parent
