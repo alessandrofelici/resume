@@ -88,3 +88,4 @@ Resume generation follows the rules in `CLAUDE.md`:
 - WHO pattern: **What** (action verb) → **How** (method/tool) → **Outcome** (bold metric)
 - No fabricated statistics — ask before adding implied metrics
 - Drafted sentences marked with `*` — do not change without user approval
+- The master doc is for visualization. Change hierarchy should always reference the markdown file for the respective section.
