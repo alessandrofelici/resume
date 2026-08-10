@@ -1,7 +1,7 @@
 # Resume Project Instructions
 
 ## File Editing Rules
-- Do NOT edit any files under `./saved/` or `./sections/`. Only edit `draft.tex`.
+- Do NOT edit any files under `./saved-resumes/` or `./sections/`. Only edit `draft.tex`.
 
 ## Project Purpose
 Generate a tailored resume `.tex` file (`draft.tex`) for a given computer science internship URL. The resume should be customized to the job posting using the user's information stored in `./sections/`.

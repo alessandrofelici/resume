@@ -1,0 +1,275 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+%
+% MASTER DOCUMENT -- NOT FOR SUBMISSION
+% This file is a comprehensive, non-tailored record of every experience,
+% project, organization, volunteering entry, coursework item, and skill
+% pulled from ./sections/. Use it as the source of truth when tailoring
+% draft.tex for a specific job posting. It is not constrained to one page.
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Alessandro Felici} \\ \vspace{1pt}
+    \small (734)-787-3873 $|$ \href{mailto:felicial@msu.edu}{\underline{felicial@msu.edu}} $|$
+    \href{https://www.linkedin.com/in/felici-alessandro/}{\underline{linkedin.com/in/felici-alessandro}} $|$
+    \href{https://github.com/alessandrofelici}{\underline{github.com/alessandrofelici}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Michigan State University Honors College -- GPA: 3.9}{Aug. 2024 -- Dec. 2027}
+      {Bachelor of Science in Computer Science, Minors in Data Science and Computational Math}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Coursework: Data Structures \& Algorithms, Object Oriented Programming, Quantum Computing, Computer Systems, Matrix Algebra, Discrete Math, Computer Organization and Architecture, AI Agents with Natural Language Processing, Probability and Statistics for Data Scientists, Info Management and the Cloud}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Science Platform Engineering Intern}{May 2026 -- Aug. 2026}
+      {Auto-Owners Insurance}{Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Prototyped a Terraform IaC stack for ML batch inference, provisioning \textbf{7} AWS resources (SageMaker, ECR, S3, IAM) alongside OpenShift via the Kubernetes provider to enable portability between platforms}
+        \resumeItem{Evaluated Terraform against the team's existing AWS CDK setup, comparing provisioning speed and configuration complexity, and delivered a migration recommendation which helped the team adopt Terraform for future ML batch inference deployments}
+        \resumeItem{Fine-tuned a pre-trained PyTorch CV classifier for house-exterior view classification, tuning augmentations, hyperparameters, and network size via a parameterized argparse workflow, and logged runs to MLflow to provide a baseline for integrating the model into AWS batch transform jobs in the SageMaker POC}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Intern}{Dec. 2025 -- May 2026}
+      {APS Data Technologies}{Remote}
+      \resumeItemListStart
+        \resumeItem{Implemented Google and Microsoft Entra OAuth authentication flows in a Django backend from scratch without third-party libraries, handling token verification, cross-window messaging, and role-based registration paths, enabling secure login across multiple user roles in a production environment}
+        \resumeItem{Built a hackathon management backend with full CRUD, user registration, project submission, and deadline enforcement, validating all edge cases with Postman to meet full task requirements}
+        \resumeItem{Built an admin document dashboard in Next.js and Django with filtering, email-based invitations, and secure downloads for platform administrators}
+        \resumeItem{Diagnosed and resolved CI/CD and deployment failures including ECR migration and corrupted storage across dev and production environments, restoring platform stability across an integrated cloud pipeline}
+        \resumeItem{Conducted multi-account user testing on a K12 ERP platform across time and attendance, onboarding, and OIDC login modules, directing an AI coding agent to implement and patch features and validating outputs through manual testing and branch review}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2025 -- Dec. 2025}
+      {Alchemy Software LLC}{}
+      \resumeItemListStart
+        \resumeItem{Developed a system to introduce a time attribute to existing task objects, enabling users to precisely add time to tasks, achieving the final product \textbf{7} days ahead of schedule}
+        \resumeItem{Wrote over \textbf{20} test cases and created a testing library to reduce the effort of new test cases by \textbf{90\%}, establishing a reusable validation framework for ongoing feature development}
+        \resumeItem{Actively managed code conflicts and design integration within a \textbf{6+} member team, collaborating in weekly meetings to combine new features and streamline development workflows}
+        \resumeItem{Debugged and resolved critical issues within new features, ensuring stability for monthly version launches}
+        \resumeItem{Met with a team of \textbf{4} developers to discuss and implement new features for the product}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Proving in AI: Independent Research}{Jan. 2025 -- May 2025}
+      {Michigan State University}{East Lansing, MI}
+      \resumeItemListStart
+        \resumeItem{Explored \textbf{6} sources using Google Scholar to learn about the foundations of computer science and development in AI}
+        \resumeItem{Presented synthesized information to other students in the course through a \textbf{13+} minute virtual presentation to deliver up to date research results and original conclusions from the project}
+        \resumeItem{Wrote a \textbf{6}-page paper with modern formatting and referencing practices to condense recent findings in research}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{GapWrap} $|$ \emph{Python, Flask, TypeScript, React, Vite}}{Jan. 2026 -- Feb. 2026}
+      \resumeItemListStart
+        \resumeItem{Built a crypto sandwich attack detector at SpartaHack 11 with a Python listener and slippage engine backend that flags bot-driven price manipulation on incoming transactions}
+        \resumeItem{Developed a React + Vite + TypeScript frontend that visualizes transaction risk in real time and wraps trades in slippage protection, closing the price gap exploited by sandwich bots}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Easy Text Transfer} $|$ \emph{Electron, TypeScript, JavaScript, React Native, Expo, Firebase}}{Oct. 2025 -- Dec. 2025}
+      \resumeItemListStart
+        \resumeItem{Built a cross-platform text and note sync application across desktop and mobile clients using a polling-based architecture with last-write-wins conflict resolution to handle concurrent edits}
+        \resumeItem{Implemented a shared state sync model where the most recently timestamped write takes precedence, eliminating conflict ambiguity without requiring a distributed consensus protocol}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Fluent} $|$ \emph{React, TypeScript, Flask, LangChain}}{Jan. 2025 -- Feb. 2025}
+      \resumeItemListStart
+        \resumeItem{Built an interactive language learning chatbot at SpartaHack X using Flask, LangChain, and Groq's Llama 3.3 70B with a 5-interaction conversational memory buffer to power context-aware tutoring}
+        \resumeItem{Developed a React frontend with quiz state, user scoring, and dynamic language selection to deliver a personalized learning loop driven by LLM-generated questions}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Various Programming Projects}}{Jan. 2025 -- Sep. 2025}
+      \resumeItemListStart
+        \resumeItem{Developed a website with a React frontend for Ollama interaction, and a Google Chrome extension for RESTful API communication with Gemini and Mistral, cultivating skills in modern web development and AI integration}
+        \resumeItem{Acquired proficiency in \textbf{3} new programming languages by developing personal projects, leading to rapid progression in learning and the effective application of creative problem-solving to technical challenges}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------ORGANIZATIONS-----------
+\section{Organizations}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Imagine Software Consultancy} $|$ \emph{Project Director}}{Aug. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led weekly check-ins with project leads across \textbf{7} concurrent client projects, identifying blockers early to maintain progress before semester checkpoints, resulting in all \textbf{7} projects meeting MVP requirements and reaching deployment}
+        \resumeItem{Defined project specifications and requirements with clients each semester, producing reference documentation that enabled development teams to begin work immediately and stay aligned throughout delivery}
+        \resumeItem{Maintained ongoing client communication covering deadlines, payments, and project expectations across \textbf{7} active engagements, retaining all clients through semester delivery}
+        \resumeItem{Developed and delivered educational workshops on developer tools and Git for \textbf{10+} members, including slides, reference documents, and live demos}
+        \resumeItem{Built several applications, including a React frontend for Ollama LLM interaction and a Chrome extension for RESTful API communication with Gemini, cultivating skills in modern web development and AI integration}
+        \resumeItem{Helped manage the educational platform, instructing new club members in programming languages and frameworks to foster their skill development and prepare them for advanced projects}
+        \resumeItem{Managed club projects and events alongside personal development and academic responsibilities to teach others while effectively balancing my own schedule}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{FRC Team 3604 Goon Squad} $|$ \emph{Mechanical Lead}}{Sep. 2021 -- May 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and manufactured a game piece launch system with best engineering practices, iterating on the subsystem to increase scoring accuracy by \textbf{20\%} due to increased control over the piece}
+        \resumeItem{Managed \textbf{5} groups of \textbf{15+} mechanical team members by communicating design decisions and priorities to accelerate development cycles, allowing team members to fail quick and respond with innovative solutions}
+        \resumeItem{Coordinated with the software team by presenting functional prototype models and meeting regularly, maximizing robot efficiency through tighter integration between mechanical and software systems}
+        \resumeItem{Optimized solutions to overcome design constraints by prioritizing efficiency and speed, which led to a ranking of \textbf{141} out of \textbf{3472} teams at the world championship}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------VOLUNTEERING-----------
+\section{Volunteering}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{MSU Science Festival} $|$ \emph{Quantum Computing in The Quantum Zone}}{Apr. 2025}
+      \resumeItemListStart
+        \resumeItem{Taught nearly \textbf{250} visitors quantum algorithms using the IBM Quantum Composer}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{FIRST Robotics Competition} $|$ \emph{Referee, Official Scorer, Crowd Control}}{June 2024 -- June 2025}
+      \resumeItemListStart
+        \resumeItem{Assisted in running high school competitions over weekends, consisting of \textbf{100+} matches}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: C, C++, Java, Python, JavaScript, TypeScript, ARM, React, React Native, Next.js, HTML, CSS, Bash, R, RStudio, NumPy, SymPy, Pandas, Matplotlib, MongoDB, Firebase, Kubernetes, AWS Console, AWS SageMaker, Terraform, PyTorch, MLflow} \\
+     \textbf{Developer Tools}{: Git, GitHub, Claude Code, Ollama, Gemini, VSCode, Antigravity, Arduino IDE, Fusion 360, Atlassian Suite, Docker, AWS, Linux/Ubuntu} \\
+     \textbf{Soft Skills}{: Critical thinking, communication, time management, problem solving, troubleshooting, proactive learning} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

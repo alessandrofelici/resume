@@ -9,23 +9,31 @@ A personal resume system for tailoring and maintaining multiple versions of a La
 ```
 resume/
 ├── draft.tex               # Active working file — current application in progress
-├── build/                  # LaTeX output for draft.tex (auto-generated, not committed)
-├── sections/               # Master experience library
-│   ├── experiences.txt     # Work history and internships
-│   ├── organizations.txt   # Clubs, teams, leadership roles
-│   ├── education.txt       # Degree, coursework
-│   ├── projects.txt 
-|   ├── technical-skills.txt
-│   └── volunteering.txt         
-├── saved/                  # Finalized resume versions
+├── master_doc.tex          # Comprehensive, non-tailored master resume (every entry from
+│                            # sections/, not constrained to one page) — the source to pull
+│                            # from when assembling/tailoring draft.tex
+├── build/                  # LaTeX output for draft.tex / master_doc.tex (auto-generated, not committed)
+├── sections/                # Master experience library
+│   ├── experiences.md      # Work history and internships
+│   ├── organizations.md    # Clubs, teams, leadership roles
+│   ├── education.md        # Degree, coursework
+│   ├── projects.md
+│   ├── technical-skills.md
+│   └── volunteering.md
+├── saved-resumes/          # Finalized resume versions
 │   ├── (1)main.tex         # General-purpose resume
 │   ├── (2)swe.tex          # Software engineering tailored
 │   ├── (3)ds.tex           # Data science tailored
+│   ├── (N)company-role.tex # Company or role-specific
 │   └── build/              # Compiled PDFs for saved resumes
 ├── applications/           # Application history (essays, prompts, notes)
-│   └── GeorgiaTech.txt     # Example: GT Trading Competition essay
+│   ├── GeorgiaTech.md      # Example: GT Trading Competition essay
+│   ├── ICER.md
+│   ├── HackMIT.md
+│   ├── MHacks25.md
+│   └── MHacks26.md
 ├── scripts/
-│   ├── save.ps1            # Save draft → saved/, compile, rename PDF
+│   ├── save.ps1            # Save draft → saved-resumes/, compile, rename PDF
 │   └── rename-pdf.ps1      # Rename compiled PDF to clean filename
 ├── CLAUDE.md               # AI instructions (writing rules, WHO pattern, verb list)
 └── .agent/rules/general.md # Legacy AI rules (superseded by CLAUDE.md)
@@ -45,11 +53,11 @@ Give a rough sentence or context. The AI applies the **WHO pattern** (What → H
 When `draft.tex` is ready to be saved as a named version:
 
 ```powershell
-./scripts/save.ps1 swe          # saves as saved/(N)swe.tex
-./scripts/save.ps1 google-swe   # saves as saved/(N)google-swe.tex
+./scripts/save.ps1 swe          # saves as saved-resumes/(N)swe.tex
+./scripts/save.ps1 google-swe   # saves as saved-resumes/(N)google-swe.tex
 ```
 
-This copies the draft, compiles it, and renames the PDF in `saved/build/`.
+This copies the draft, compiles it, and renames the PDF in `saved-resumes/build/`.
 
 ---
 
@@ -62,7 +70,7 @@ Saved resumes follow the `(N)name` convention where `N` is auto-incremented:
 | `(1)main.tex` | General / default |
 | `(2)swe.tex` | Software engineering |
 | `(3)ds.tex` | Data science |
-| `(N)company-role.tex` | Company or role-specific (future) |
+| `(N)company-role.tex` | Company or role-specific |
 
 ---
 

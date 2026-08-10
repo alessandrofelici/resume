@@ -5,7 +5,7 @@ if (-not $Name) {
 }
 
 $root = Split-Path $PSScriptRoot -Parent
-$savedDir = Join-Path $root "saved resumes"
+$savedDir = Join-Path $root "saved-resumes"
 $buildDir = Join-Path $savedDir "build"
 $draftPath = Join-Path $root "draft.tex"
 
@@ -38,17 +38,17 @@ if ($existingMatch) {
 
 # Copy draft to saved (overwrite if this name was already saved)
 Copy-Item -LiteralPath $draftPath -Destination $destPath -Force
-Write-Host "Saved draft as: saved/$destName"
+Write-Host "Saved draft as: saved-resumes/$destName"
 
 # Compile
 Write-Host "Compiling..."
 & pdflatex -interaction=nonstopmode -output-directory $buildDir $destPath | Out-Null
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "Compile failed. Check saved/build/ for logs."
+    Write-Host "Compile failed. Check saved-resumes/build/ for logs."
     exit 1
 }
 Write-Host "Compiled successfully."
 
 # Rename PDF
 & "$PSScriptRoot\rename-pdf.ps1" -DocPath $destPath
-Write-Host "Done. PDF saved to saved/build/"
+Write-Host "Done. PDF saved to saved-resumes/build/"
