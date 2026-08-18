@@ -14,6 +14,12 @@ if (-not (Test-Path $draftPath)) {
     exit 1
 }
 
+# Pre-save hook: block save if unreviewed (asterisk-marked) draft bullets remain
+& "$PSScriptRoot\pre-save.ps1" -DraftPath $draftPath
+if ($LASTEXITCODE -ne 0) {
+    exit 1
+}
+
 # Reuse an existing (N)Name.tex slot if this name was already saved before,
 # instead of always minting a new number
 $existingMatch = Get-ChildItem $savedDir -Filter "*.tex" |

@@ -18,13 +18,16 @@ Languages & Tools:
   - Sympy
   - MatPlotLib
   - Pandas
-  - MongoDB
   - Firebase
   - Bash
   - R
   - RStudio
   - Kubernetes
-  - AWS SageMaker
+  - AWS
+    - SageMaker
+    - Lambda
+    - S3
+    - ECR
   - Terraform
 
 Developer Tools:

@@ -59,3 +59,9 @@ Use **present tense** for current roles, **past tense** for past roles.
 | Help/Teach | advised, clarified, coached, collaborated, consulted, counseled, educated, explained, facilitated, guided, instructed, modeled, taught, trained, tutored |
 | Research/Analytical | assessed, compared, critiqued, defined, derived, detected, determined, discovered, evaluated, examined, explored, found, inspected, interpreted, investigated, located, measured, observed, rated, recommended, reviewed, searched, studied, surveyed |
 | Technical | adapted, adjusted, applied, built, computed, constructed, designed, diagnosed, engineered, maintained, modified, operated, prescribed, programmed, proved, reinforced, repaired, resolved, restored, solved, specified, systematized, tested |
+
+## Note for AWS
+In the skills section, format the AWS skill as the skill itself, then the specific services in paranthesis. For example, if AWS is a bullet point in the skills markdown section, and lambda is a sub-bullet point of AWS, then include "AWS (Lambda)" in the resume.
+
+## Skills section
+Aim to keep the languages & tools line in the skills section one line long. Highlight the most important ones, but if there are enough to fit two lines, include more to fill that second line. It should never be 3 lines long.

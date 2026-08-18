@@ -47,7 +47,7 @@ resume/
 Give the AI a job URL or paste the description. It reads `sections/` and selects the most relevant bullets, adapting them to match the role.
 
 ### 2. Write or Improve a Bullet
-Give a rough sentence or context. The AI applies the **WHO pattern** (What → How → Outcome) and rewrites it using strong action verbs and a quantified result.
+Give a rough sentence or context. The AI applies the **WHO pattern** (What → How → Outcome) and rewrites it using strong action verbs and a quantified result. Rewritten lines will show an astrisk, to mark it for review.
 
 ### 3. Save a Finalized Resume
 When `draft.tex` is ready to be saved as a named version:
