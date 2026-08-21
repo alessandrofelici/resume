@@ -7,6 +7,7 @@ if (-not $Name) {
 $root = Split-Path $PSScriptRoot -Parent
 $savedDir = Join-Path $root "saved-resumes"
 $buildDir = Join-Path $savedDir "build"
+$draftBuildDir = Join-Path $root "build"
 $draftPath = Join-Path $root "draft.tex"
 
 if (-not (Test-Path $draftPath)) {
@@ -16,6 +17,28 @@ if (-not (Test-Path $draftPath)) {
 
 # Pre-save hook: block save if unreviewed (asterisk-marked) draft bullets remain
 & "$PSScriptRoot\pre-save.ps1" -DraftPath $draftPath
+if ($LASTEXITCODE -ne 0) {
+    exit 1
+}
+
+# Pre-save hook: compile the draft fresh and block save if any wrapped line
+# is left mostly empty (e.g. a bullet wrapping down to a single short word)
+Write-Host "Checking line fill..."
+& pdflatex -interaction=nonstopmode -output-directory $draftBuildDir $draftPath | Out-Null
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Compile failed. Check build/ for logs."
+    exit 1
+}
+& python "$PSScriptRoot\check_line_fill.py" (Join-Path $draftBuildDir "draft.pdf")
+if ($LASTEXITCODE -ne 0) {
+    exit 1
+}
+
+# Pre-save hook: enforce the one-page rule and block save if the page is
+# left mostly blank at the bottom (page-break boundary queried directly
+# from pdfLaTeX, not guessed)
+Write-Host "Checking page fill..."
+& python "$PSScriptRoot\check_page_fill.py" (Join-Path $draftBuildDir "draft.pdf") --tex $draftPath
 if ($LASTEXITCODE -ne 0) {
     exit 1
 }
